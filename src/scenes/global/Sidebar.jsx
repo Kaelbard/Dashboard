@@ -117,39 +117,32 @@ const ProSidebar = () => {
           {/* MENU ITEMS */}
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
             <Item
-            title="Dashboard"
-            to="/"
-            icon={<HomeOutlinedIcon />}
-            selected={selected}
-            setSelected={setSelected}
-            />
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Dados
-            </Typography>
-            <Item
-            title="Gerenciar Time"
-            to="/team"
-            icon={<PeopleOutlinedIcon />}
-            selected={selected}
-            setSelected={setSelected}
+              title="Dashboard"
+              to="/"
+              icon={<HomeOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-            title="Informação de Contatos"
-            to="/contacts"
-            icon={<ContactsOutlinedIcon/>}
-            selected={selected}
-            setSelected={setSelected}  
+              title="Gerenciar Time"
+              to="/team"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-            title="Saldo da fatura"
-            to="/invoices"
-            icon={<ReceiptOutlinedIcon />}
-            selected={selected}
-            setSelected={setSelected}
+              title="Informação de Contatos"
+              to="/contacts"
+              icon={<ContactsOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Saldo da fatura"
+              to="/invoices"
+              icon={<ReceiptOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Typography
               variant="h6"
